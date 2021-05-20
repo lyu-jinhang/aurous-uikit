@@ -2104,7 +2104,7 @@ styled__default['default'].text(templateObject_1$z || (templateObject_1$z = __ma
 styled__default['default'].tspan(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  font-size: 26.26px;\n  font-family: GoodTimingRg-Bold, Good Timing !important;\n  font-weight: 700;\n  letter-spacing: 0em;\n"], ["\n  font-size: 26.26px;\n  font-family: GoodTimingRg-Bold, Good Timing !important;\n  font-weight: 700;\n  letter-spacing: 0em;\n"])));
 var Logo = function (_a) {
     _a.isDark; __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement("img", { width: "220px", height: "50px", src: "/images/logo.png" }));
+    return (React__default['default'].createElement("img", { width: "60px", src: "/images/logo.png" }));
 };
 var templateObject_1$z, templateObject_2$b;
 
@@ -2266,7 +2266,7 @@ var links = [
     {
         label: "Certik Audit (In-Progress)",
         icon: "ShieldIcon",
-        href: "https://twitter.com/nonplayertokendex/status/1367218225310818308",
+        href: "https://twitter.com/aureustokendex/status/1367218225310818308",
         target: "_blank",
     },
     {
@@ -2345,16 +2345,16 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/nonplayertoken/",
+                href: "https://github.com/aureustoken/",
                 target: '_blank',
             },
             {
                 label: "Docs",
-                href: "https://npct.gitbook.io/nonplayertoken/",
+                href: "https://arus.gitbook.io/aureustoken/",
             },
             {
                 label: "Blog",
-                href: "https://nonplayertokendex.medium.com/",
+                href: "https://aureustokendex.medium.com/",
             },
         ],
     },
@@ -2366,18 +2366,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/nonplayertokenchat",
+                href: "https://t.me/aureustokenchat",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/nonplayertoken",
+                href: "https://t.me/aureustoken",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/nonplayertokendex",
+        href: "https://twitter.com/aureustokendex",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2969,7 +2969,7 @@ var templateObject_1$N;
 
 var baseColors = {
     failure: "#e02f58",
-    primary: "#F99D1C",
+    primary: "#999999",
     primaryBright: "#dd831c",
     primaryDark: "#c25e00",
     secondary: "#d6931a",
@@ -2979,10 +2979,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ffffff", secondary: "#F99D1C", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#345D9E", textDisabled: "#BDC2C4", textSubtle: "#F99D1C", borderColor: "#E9EAEB", card: "#FFFFFF", nav: "#F99D1C", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ffffff", secondary: "#999999", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#345D9E", textDisabled: "#BDC2C4", textSubtle: "#999999", borderColor: "#E9EAEB", card: "#FFFFFF", nav: "#999999", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#ffe500", background: "#1F2B46", backgroundDisabled: "#424037", contrast: "#FFFFFF", invertedContrast: "#262513", input: "#483F5A", inputSecondary: "#8d8857", primaryDark: "#8f8104", tertiary: "#28444A", text: "#fcfae2", textDisabled: "#717161", textSubtle: "#F99D1C", borderColor: "#61634b", card: "#121827", nav: "#121827", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#ffe500", background: "#222222", backgroundDisabled: "#424037", contrast: "#FFFFFF", invertedContrast: "#262513", input: "#1b1b1b", inputSecondary: "#8d8857", primaryDark: "#8f8104", tertiary: "#28444A", text: "#fcfae2", textDisabled: "#717161", textSubtle: "#999999", borderColor: "#61634b", card: "#000000", nav: "#000000", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 

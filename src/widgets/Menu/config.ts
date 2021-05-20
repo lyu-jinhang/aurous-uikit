@@ -31,7 +31,7 @@ export const links = [
   {
     label: "Certik Audit (In-Progress)",
     icon: "ShieldIcon",
-    href: "https://twitter.com/nonplayertokendex/status/1367218225310818308",
+    href: "https://twitter.com/aureustokendex/status/1367218225310818308",
     target: "_blank",
   },
   {
@@ -110,16 +110,16 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/nonplayertoken/",
+        href: "https://github.com/aureustoken/",
         target: '_blank',
       },
       {
         label: "Docs",
-        href: "https://npct.gitbook.io/nonplayertoken/",
+        href: "https://arus.gitbook.io/aureustoken/",
       },
       {
         label: "Blog",
-        href: "https://nonplayertokendex.medium.com/",
+        href: "https://aureustokendex.medium.com/",
       },
     ],
   },
@@ -132,18 +132,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/nonplayertokenchat",
+        href: "https://t.me/aureustokenchat",
       },
       {
         label: "Announcements",
-        href: "https://t.me/nonplayertoken",
+        href: "https://t.me/aureustoken",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/nonplayertokendex",
+    href: "https://twitter.com/aureustokendex",
   },
 ];
 
