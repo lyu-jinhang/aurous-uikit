@@ -1986,7 +1986,7 @@ var Modal = function (_a) {
 };
 var templateObject_1$w, templateObject_2$a, templateObject_3$5;
 
-var Overlay = styled__default['default'].div.attrs({ role: "presentation" })(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
+var Overlay = styled__default['default'].div.attrs({ role: "presentation" })(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #888888;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #888888;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
     var show = _a.show;
     return (show ? 0.6 : 0);
 }, function (_a) {
@@ -2380,7 +2380,7 @@ var socials = [
         href: "https://twitter.com/aureustokendex",
     },
 ];
-var MENU_HEIGHT = 64;
+var MENU_HEIGHT = 84;
 var MENU_ENTRY_HEIGHT = 48;
 var SIDEBAR_WIDTH_FULL = 240;
 var SIDEBAR_WIDTH_REDUCED = 56;
@@ -2491,7 +2491,7 @@ var templateObject_1$E;
 var PriceLink = styled__default['default'].a(templateObject_1$F || (templateObject_1$F = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://dex.guru/token/0x9C8E99eb130AED653Ef90fED709D9C3E9cC8b269-bsc", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://dex.guru/token/0x6Dd195c23f3126E03bEf84969B64dC17742e79ed-bsc", target: "_blank" },
         React__default['default'].createElement(Icon$x, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -2806,7 +2806,7 @@ var UserBlock = function (_a) {
 var UserBlock$1 = React__default['default'].memo(UserBlock, function (prevProps, nextProps) { return prevProps.account === nextProps.account; });
 
 var Wrapper$1 = styled__default['default'].div(templateObject_1$K || (templateObject_1$K = __makeTemplateObject(["\n  position: relative;\n  width: 100%;\n"], ["\n  position: relative;\n  width: 100%;\n"])));
-var StyledNav = styled__default['default'].nav(templateObject_2$g || (templateObject_2$g = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px rgba(133, 133, 133, 0.1);\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px rgba(133, 133, 133, 0.1);\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
+var StyledNav = styled__default['default'].nav(templateObject_2$g || (templateObject_2$g = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 1px #dddddd;\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 1px #dddddd;\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? 0 : "-" + MENU_HEIGHT + "px");
 }, MENU_HEIGHT, function (_a) {
@@ -2969,7 +2969,7 @@ var templateObject_1$N;
 
 var baseColors = {
     failure: "#e02f58",
-    primary: "#999999",
+    primary: "#E0242D",
     primaryBright: "#dd831c",
     primaryDark: "#c25e00",
     secondary: "#d6931a",
@@ -2979,11 +2979,11 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ffffff", secondary: "#999999", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#345D9E", textDisabled: "#BDC2C4", textSubtle: "#999999", borderColor: "#E9EAEB", card: "#FFFFFF", nav: "#999999", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ffffff", secondary: "#999999", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#345D9E", textDisabled: "#BDC2C4", textSubtle: "#222222", borderColor: "#E9EAEB", card: "#FFFFFF", nav: "#999999", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#ffe500", background: "#222222", backgroundDisabled: "#424037", contrast: "#FFFFFF", invertedContrast: "#262513", input: "#1b1b1b", inputSecondary: "#8d8857", primaryDark: "#8f8104", tertiary: "#28444A", text: "#fcfae2", textDisabled: "#717161", textSubtle: "#999999", borderColor: "#61634b", card: "#000000", nav: "#000000", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#d45555", background: "#151515", backgroundDisabled: "#424037", contrast: "#FFFFFF", invertedContrast: "#262513", input: "#1b1b1b", inputSecondary: "#8d8857", primaryDark: "#8f8104", tertiary: "#3b3b3c", text: "#fcfae2", textDisabled: "#717161", textSubtle: "#bbbbbb", borderColor: "#61634b", card: "#000000", nav: "#000000", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #080c17 0%, #110f2f 100%)",
     } });
 
 var light = {
